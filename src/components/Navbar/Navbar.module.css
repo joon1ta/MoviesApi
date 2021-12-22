@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    max-height: 100px;
+    width: 100%;
+   justify-content: space-between;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.logo {
+    width: 70%;
+    max-width: 300px;
+    padding: 1em;
+    margin-left: 3em;
+}
+
+
+.links {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+    padding-left: 1em;
+}
+
+.profile {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+}
