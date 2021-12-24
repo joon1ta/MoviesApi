@@ -10,7 +10,10 @@ const Movies = () => {
         <div>
             {movies.map(m => {
                 return (
-                    <h1 key={m.id}>{m.original_title}</h1>
+                    <div key={m.id}>
+                    <h1>{m.original_title}</h1>
+                    <img src={`http://image.tmdb.org/t/p/w185${m.poster_path}`} alt="moviesImg" />
+                    </div>
                 )
             })}
         </div>
